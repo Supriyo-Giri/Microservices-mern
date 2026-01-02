@@ -10,3 +10,12 @@
 {"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2026-01-02 22:24:52"}
 {"level":"info","message":"Register user endpoint...","service":"identity-service","timestamp":"2026-01-02 22:24:52"}
 {"level":"warn","message":"User alreay exists","service":"identity-service","timestamp":"2026-01-02 22:24:52"}
+{"level":"info","message":"Connected to MongoDB successfully, host: ac-t9ts1co-shard-00-02.nx5ptiq.mongodb.net","service":"identity-service","timestamp":"2026-01-03 00:43:07"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-03 00:43:29"}
+{"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2026-01-03 00:43:29"}
+{"level":"info","message":"Register user endpoint...","service":"identity-service","timestamp":"2026-01-03 00:43:29"}
+{"level":"warn","message":"User alreay exists","service":"identity-service","timestamp":"2026-01-03 00:43:29"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-03 00:44:06"}
+{"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2026-01-03 00:44:06"}
+{"level":"info","message":"Register user endpoint...","service":"identity-service","timestamp":"2026-01-03 00:44:06"}
+{"buffer":{"data":[105,88,24,254,192,179,187,235,157,136,126,187],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2026-01-03 00:44:06"}

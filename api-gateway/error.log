@@ -1,0 +1,5 @@
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2026-01-03 00:24:45"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2026-01-03 00:29:07"}
+{"level":"error","message":"Proxy error: AggregateError","service":"api-gateway","timestamp":"2026-01-03 00:29:37"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2026-01-03 00:33:49"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2026-01-03 00:35:53"}
