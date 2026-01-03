@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix api-gateway && npm install --prefix identity-service"
+    "build": "npm install --prefix api-gateway && npm install --prefix identity-service && npm install --prefix post-service && npm install --prefix media-service && npm install --prefix search-service"
   },
   "keywords": [],
   "author": "",
