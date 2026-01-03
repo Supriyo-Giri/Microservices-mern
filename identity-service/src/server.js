@@ -10,6 +10,7 @@ import { rateLimit } from 'express-rate-limit'
 import { RedisStore } from 'rate-limit-redis'
 import errorHandler from './middlewares/errorHandler.js'
 import logger from './utils/logger.util.js'
+import cookieParser from "cookie-parser";
 
 dotenv.config();
 
@@ -17,17 +18,22 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 //midlewares
+app.use(cookieParser());
 app.use(express.json());
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:3000", // api-gateway
+  credentials: true
+}));
+
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
 
 //logging all requests on the console window
 app.use((req,res,next)=>{
-    logger.info(`Recieved ${req.method} request to ${req.url}`);
-    logger.info(`Request body ${req.body}`);
+    logger.info(`Request body: ${JSON.stringify(req.body)} request to ${req.url}`);
+    logger.info(`Request body: ${JSON.stringify(req.body)}`);
     next();
 })                                                          
 
